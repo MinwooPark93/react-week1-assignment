@@ -1,0 +1,55 @@
+.MainBox {
+  max-width: 350px;
+  width: 80vw;
+  height: 60vh;
+  margin: auto;
+  padding: 5vh 0;
+  background-color: #eee;
+  border: 1px solid #555;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+}
+.MainBox:hover {
+  box-shadow: 0 0 10px 2px rgba(74, 245, 85, 0.5);
+}
+
+.MainTitle {
+  text-align: center;
+  color: #333;
+}
+
+.MainLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0;
+}
+
+.MainDayText {
+  margin: 5px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.MainPoint {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.MainAngleBtn {
+  cursor: pointer;
+  width: 0px;
+  height: 0px;
+  margin-left: 10px;
+  border-left: 30px solid #666666;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  transition: ease-in-out 0.3s;
+}
+.MainAngleBtn:hover {
+  transform: scale(1.1);
+  border-left: 30px solid rgb(60, 151, 75);
+}
